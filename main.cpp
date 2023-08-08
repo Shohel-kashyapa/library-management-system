@@ -32,9 +32,11 @@ int main(){
                 cout<<"Enter Book Id"<<endl;
                 cin>>lib[count].id;
                 cout<<"Enter Book Name"<<endl;
+
                 //cin>>lib[count].name;
                 cin.getline(lib[count].name,100,'$');
                 cout<<"Enter Book Author"<<endl;
+                
                 //cin>>lib[count].author;
                 cin.getline(lib[count].author,100,'$');
                 cout<<"Enter Student Name"<<endl;
